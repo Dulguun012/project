@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>TP5</title>
+</head>
+
+<body>
+    <input type="checkbox" id="dark-mode-toggle" hidden>
+    <label for="dark-mode-toggle" class="toggle-btn">Dark Mode</label>
+
+    <header>
+        <img src="logo-iut-toulouse.png" width="50" height="50" alt="Logo de l'IUT de Toulouse">
+        <img src="logo-but-info.png" class="img-left logo-rect" alt="Logo du BUT informatique">
+        <img src="logo-paul-sab.png" class="logo-right logo-rect" alt="Logo de l'université Paul Sabatier">
+        
+    </header>
+
+    <nav>
+        
+        <ul class="liste-item">
+            <li class="item"><a href="acceuil.html" class="lien-item">Accueil</a></li>
+            <li class="item"><a href="#" class="lien-item">Présentation des compétences</a></li>
+            <li class="item">Compétences
+                <span>&#9660;</span>
+                <ul class="sous-liste">
+                    <li class="item-sous-liste"><a href="page_compétence_UE1.html" class="lien-comp">Compétence 1</a></li>
+                    <li class="item-sous-liste"><a href="page_compétence_UE2.html" class="lien-comp">Compétence 2</a></li>
+                    <li class="item-sous-liste"><a href="page_compétence_UE3.html" class="lien-comp">Compétence 3</a></li>
+                    <li class="item-sous-liste"><a href="page_compétence_UE4.html" class="lien-comp">Compétence 4</a></li>
+                    <li class="item-sous-liste"><a href="page_compétence_UE5.html" class="lien-comp">Compétence 5</a></li>
+                    <li class="item-sous-liste"><a href="page_compétence_UE6.html" class="lien-comp">Compétence 6</a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="page_contact.html" class="lien-item">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <main>
+            <h1 class="a">Présentation des Règles</h1>
+
+            <section class="coefficient-rules">
+                <div class="coefficients">
+                    <h2 class="coef">Tableau des Coefficients</h2>
+                    <div class="table-area">
+                        <table class="tab">
+                            <thead>
+                                <tr>
+                                    <th>Ressource</th>
+                                    <th>Compétence 1</th>
+                                    <th>Compétence 2</th>
+                                    <th>Compétence 3</th>
+                                    <th>Compétence 4</th>
+                                    <th>Compétence 5</th>
+                                    <th>Compétence 6</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>R1</td>
+                                    <td>42%</td>
+                                    <td>24%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                </tr>
+                                <tr>
+                                    <td>R2</td>
+                                    <td>12%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                    <td>18%</td>
+                                    <td>5%</td>
+                                </tr>
+                                <tr>
+                                    <td>R3</td>
+                                    <td>0%</td>
+                                    <td>3%</td>
+                                    <td>21%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                </tr>
+                                <tr>
+                                    <td>R4</td>
+                                    <td>0%</td>
+                                    <td>3%</td>
+                                    <td>21%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                </tr>
+                                <tr>
+                                    <td>R5</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                    <td>36%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                </tr>
+                                <tr>
+                                    <td>R6</td>
+                                    <td>0%</td>
+                                    <td>15%</td>
+                                    <td>0%</td>
+                                    <td>18%</td>
+                                    <td>0%</td>
+                                    <td>0%</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="rules">
+                    <h2 class="coef">Règles de Passage</h2>
+                    <ul>
+                        <li><strong>Passage automatique :</strong> Un étudiant doit obtenir une note d'au moins 10 pour 4 compétences ou plus, et aucune compétence ne doit être en dessous de 8.</li>
+                        <li><strong>Passage sur décision de jury :</strong> En cas de non-respect des conditions, un passage peut être autorisé par le jury.</li>
+                        <li><strong>Validation de bloc par le jury :</strong> Le jury peut valider certains blocs de compétences.</li>
+                        <li><strong>Pas de redoublement de droit :</strong> Dans certains cas, un étudiant ne peut pas redoubler même avec un passage limite.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="decorator"></div>
+
+            <section class="competences">
+                <h2 class="coef">Les Compétences</h2>
+
+                <div class="competence">
+                    <div class="image-container">
+                        <a href="page_compétence.html">
+                            <img src="OIP.jpg" alt="Illustration Compétence 1" class="competence-image">
+                        </a>
+                    </div>
+                    <div class="competence-info">
+                        <h3 class="comp">Compétence 1</h3>
+                        <div class="resource-grid">
+                            <a class="resource-item">Réaliser un développement d’application</a>
+                            <a class="resource-item2">Optimiser des applications</a>
+                            <a class="resource-item3">Administrer des systèmes informatiques communicants complexes</a>
+                            <a class="resource-item4">Gérer des données de l’information</a>
+                            <a class="resource-item5">Conduire un projet</a>
+                            <a class="resource-item6">Collaborer au sein d’une équipe informatique</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="competence">
+                    <div class="competence-info">
+                        <h3 class="comp">Compétence 2</h3>
+                        <div class="resource-grid">
+                            <a class="resource-item">Réaliser un développement d’application</a>
+                            <a class="resource-item2">Optimiser des applications</a>
+                            <a class="resource-item3">Administrer des systèmes informatiques communicants complexes</a>
+                            <a class="resource-item4">Gérer des données de l’information</a>
+                            <a class="resource-item5">Conduire un projet</a>
+                            <a class="resource-item6">Collaborer au sein d’une équipe informatique</a>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <a href="page_compétence.html">
+                            <img src="OIP(1).jpg" alt="Illustration Compétence 2" class="competence-image">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <div class="disposition-footer">
+            <p>Département Informatique,</p>
+            <p>133 B Av. de Rangueil,</p>
+            <p>BP 67701</p>
+        </div>
+        <ul class="disposition-footer">
+            <li><a href="acceuil.html">Accueil</a></li>
+            <li><a href="#">Présentation des compétences</a></li>
+            <li><a href="page_compétence_UE1.html">Compétences</a></li>
+            <li><a href="page_contact.html">Contact</a></li>
+        </ul>
+        <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" class="disposition-footer">CNIL_RGPD</a>
+        <ul class="disposition-footer">
+            <li>Yohan Martos</li>
+            <li>Samuel Lafront</li>
+            <li>Mathis Briere</li>
+            <li>Abdelrani</li>
+            <li>Dulguun</li>
+        </ul>
+    </footer>
+</body>
+
+</html>
